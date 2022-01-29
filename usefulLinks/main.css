@@ -1,0 +1,16 @@
+#block{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    background-image: url(../img/background.png);
+    margin-left: 700px;
+    margin-top: 300px;
+}
+#blockText{
+    margin-top: 90px;
+    margin-left: 60px;
+}
+h2{
+    margin-left: 60px;
+    color: #205e26;
+}
