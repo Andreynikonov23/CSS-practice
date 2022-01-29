@@ -1,0 +1,17 @@
+#block{
+    background-image: url(img/background.png);
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    border-top: 1px black solid;
+}
+#text{
+    padding-block: 150px;
+}
+#text::first-line{
+    color:blue;
+}
+#text::first-letter{
+    color: red;
+    font-size: 30px;
+}
