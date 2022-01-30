@@ -1,0 +1,16 @@
+body{
+    background-color: bisque;
+}
+#block{
+    margin: 80px;
+    width: 280px;
+    text-indent: 20px;
+    text-align: justify;
+    position: absolute;
+    border-left: 3px blue dotted;
+    padding-left: 15px;
+    
+}
+span{
+    margin-left: 15px;
+}
