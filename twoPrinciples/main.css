@@ -1,0 +1,12 @@
+body{
+    background-color: bisque;
+}
+div{
+    text-align: justify;
+    width: 380px;
+    background-color: black;
+    border: red 2px solid;
+    padding: 10px;
+    color: orange;
+    margin: 3%;
+}
