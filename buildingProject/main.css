@@ -1,0 +1,37 @@
+
+article{
+    width: 700px;
+    border-left: 1px black solid;
+    padding-left: 20px;
+    position: relative;
+    margin: 50px;
+}
+.code{
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-left: 18px;
+    height: 35px;
+    background-color: #CBCBCB;
+    width: 650px;
+}
+.argument{
+    background-color: #CBCBCB;
+    padding: 4px;
+}
+#bigCode{
+    padding-left: 18px;
+    background-color: #CBCBCB;
+    width: 650px;
+    overflow: scroll;
+}
+#link{
+    cursor: pointer;
+    position: relative;
+    left: 600px;
+}
+#green{
+    color: green;
+}
+#grey{
+    color: grey;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Задание №10</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <article>
+            <div id="link"><b>www.itmathrepetitor.ru</b></div>
+            <p>
+                Собираем проект:
+            </p>
+            <div class="code">
+                <pre>$ bem make</pre>
+            </div>
+            <p>
+                Первая сборка с <span class="argument">bem-tools</span> займет некоторое время, так как именно в этот <br/>
+                момент в директорию проекта устанавливается все необходимые npm-пакеты.
+            </p>
+            <p>
+                Для запуска сервера выполняем:
+            </p>
+            <div class="code">
+                <pre>$ bem server</pre>
+            </div>
+            <p>В результате вы увидите следущее событие</p>
+            <div id="bigCode">
+                <pre>info: Server is listening on port <span id="green">8080</span>. Point your browser to http:<span id="grey">//localhost:8080.domain</span></pre>
+            </div>
+            <h3>Проблема?</h3>
+            <p>
+                Если порт 8080 уже используется другой программой, его можно переназначить с <br/>
+                помощью аргумента <span class="argument">-p</span>.
+            </p>
+        </article>
+    </body>
+</html>
