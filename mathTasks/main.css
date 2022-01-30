@@ -1,0 +1,14 @@
+#block{
+background-image: url(../img/background.png);
+width: 600px;
+height: 400px;
+}
+#blockText{
+    background-image: url(../img/background.png);
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 130px;
+}
+b{
+    margin-left: 70px;
+}
