@@ -1,0 +1,30 @@
+body{
+    margin-left: 700px;
+    margin-top: 200px;
+}
+p{
+    color: grey;
+}
+.block{
+    width: 500px;
+    background-color: #CBCBCB;
+}
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.comment{
+    color: grey;
+    font-style: italic;
+    font-size: 18px;
+}
+.block2{
+    width: 500px;
+    background-color: #CBCBCB;
+    overflow: scroll;
+}
