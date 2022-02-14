@@ -1,0 +1,25 @@
+html{
+    background-image: url(img/background.png);
+}
+article{
+    color: white;
+    margin-left: 200px;
+    width: 1000px;
+}
+aside{
+    position: fixed;
+    float: left;
+}
+div{
+    background-color: white;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 12px;
+    width: 80px;
+    position: relative;
+    left: 20px;
+    top: 300px;
+    cursor: pointer;
+}
