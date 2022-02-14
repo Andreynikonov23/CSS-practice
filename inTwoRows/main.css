@@ -1,0 +1,14 @@
+div {
+    width: 500px;
+    height: 300px;
+}
+div div {
+    background-color: #292A2A;
+    text-align: center;
+    color: grey;
+    line-height: 145px;
+    height: 145px;
+    width: 145px;
+    border: grey 5px solid;
+    float: left;
+}
