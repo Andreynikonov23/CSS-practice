@@ -1,0 +1,46 @@
+html{
+    background-image: url(img/main.png);
+}
+body{
+    margin-left: 250px;
+    margin-top: 100px;
+}
+header{
+    background-image: url(img/headerFooter.png);
+    width: 900px;
+    height: 120px;
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+}
+aside{
+    background-image: url(img/aside.png);
+    width: 300px;
+    height: 600px;
+    float: left;
+    border-right: black 1px solid;
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 80px;
+}
+article{
+    background-image: url(img/article.png);
+    margin-left: 300px;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 80px;
+}
+footer{
+    background-image: url(img/headerFooter.png);
+    width: 900px;
+    height: 120px;
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+}
