@@ -1,0 +1,25 @@
+#container{
+    padding: 30px;
+    background-color: #31B5E7;
+}
+div div {
+    background-color: white;
+    height: 150px;
+    display: inline-block;
+    margin-left: 5px;
+}
+#block1{
+    width: 15px;
+}
+#block2{
+    width: 30px;
+}
+#block3{
+    width: 60px;
+}
+#block4{
+    width: 120px;
+}
+#block5{
+    width: 240px;
+}
