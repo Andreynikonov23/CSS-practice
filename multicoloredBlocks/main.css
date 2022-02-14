@@ -1,0 +1,45 @@
+html{
+    background-color: #42A6A6;
+}
+div{
+    border: black solid 4px;
+}
+#main{
+    width: 700px;
+    height: 500px;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+#red{
+    width: 130px;
+    height: 90px;
+    margin: 40px;
+    background-color: red;
+    
+}
+#green{
+    position: relative;
+    left: 216px;
+    bottom: 139px;
+    margin-top: 40px;
+    margin-right: 30px;
+    height: 250px;
+    width: 430px;
+    background-color: green;
+}
+#blue{
+    height: 260px;
+    width: 130px;
+    background-color: blue;
+    position: relative;
+    left: 40px;
+    bottom: 260px;
+}
+#yellow{
+    position: relative;
+    height: 80px;
+    width: 430px;
+    background-color: yellow;
+    left: 216px;
+    bottom: 346px;
+}
