@@ -1,0 +1,27 @@
+ul{
+    display: block;
+    list-style: none;
+    height: 35px;
+    background-color: #41494A;
+    border-radius: 8px;
+}
+div{
+    height: 2px;
+    background-color: red;
+    margin-left: -35px;
+    width: 1336px;
+}
+ul li{
+    text-align: center;
+    display: inline-block;
+    width: 120px;
+    padding: 5px;
+    margin-right: 80px;
+    margin-top: 2px;
+    color: white;
+}
+ul li:hover{
+    background-color: black;
+    opacity: 0.6;
+    cursor: pointer;
+}
