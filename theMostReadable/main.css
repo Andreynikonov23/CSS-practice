@@ -1,0 +1,45 @@
+ul{
+    display: block;
+    border: #08655C 1px solid;
+    position: absolute;
+    list-style: none;
+    width: 250px;
+}
+ul li {
+    margin-left: -30px;
+    display: block;
+    border-top: brown 1px dotted;
+    padding-top: 8px;
+    width: 270px;
+}
+ul li img{
+    height: 70px;
+    width: 80px;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+}
+.text{
+    display: inline-block;
+    width: 150px;
+    margin-left: 5px;
+}
+#heading{
+    width: 270px;
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#head{
+    border: none;
+}
+#last{
+    margin-bottom: 15px;
+}
+ul li:hover{
+    cursor: pointer;
+}
+.text:hover{
+    text-decoration: underline;
+}
