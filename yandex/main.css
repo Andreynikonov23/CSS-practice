@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Yandex Sans Text';
+    src: url('fonts/YandexSansText-Medium.eot');
+    src: local('Yandex Sans Text Medium'), local('YandexSansText-Medium'),
+        url('fonts/YandexSansText-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/YandexSansText-Medium.woff2') format('woff2'),
+        url('fonts/YandexSansText-Medium.woff') format('woff'),
+        url('fonts/YandexSansText-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+div{
+    width: 200px;
+    height: 80px;
+    border: black 1px solid;
+    text-align: center;
+    line-height: 80px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Yandex Sans Text';
+}
+div::first-letter{
+    font-size: 50px;
+    color: red;
+}
+input{
+    position: relative;
+    left: 190px;
+    bottom: 50px;
+}
