@@ -1,0 +1,12 @@
+#mainList{
+    display: block;
+    list-style: none;
+    float: left;
+    position: absolute;
+    width: 300px;
+}
+#mainList li {
+    display: block;
+    border-bottom: black 1px solid;
+    padding-bottom: 5px;
+}
