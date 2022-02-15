@@ -1,0 +1,19 @@
+html{
+    background-color: #B9C1C1;
+}
+.tr1, .tr3{
+    display: inline-block;
+    width: 0;
+	height: 0;
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 80px solid green;
+}
+.tr2{
+    display: inline-block;
+    width: 0;
+	height: 0px;
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	border-top: 300px solid green;
+}
