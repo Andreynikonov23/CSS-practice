@@ -1,0 +1,37 @@
+.block{
+    background-color:hsl(125, 100%, 88%);
+    width: 800px;
+    height: 60px;
+}
+#blue_text{
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+    color: blue;
+    font-weight: 600;
+}
+#green_text{
+    color: #00BE2C;
+    font-size: 12px;
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+}
+#img{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#exit{
+    border-radius: 100%;
+    background-color: grey;
+    color: white;
+    position: relative;
+    text-align: center;
+    width: 15px;
+    list-style: 15px;
+    height: 15px;
+    opacity: 0.6;
+    left: 780px;
+    bottom: 55px;
+}
