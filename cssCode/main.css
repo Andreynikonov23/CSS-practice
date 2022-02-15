@@ -1,0 +1,23 @@
+#container{
+    background-color: #282A2A;
+    width: 500px;
+    height: 200px;
+    color: white;
+}
+.bar{
+    background-color: #D87722;
+    padding: 4px;
+    padding-left: 12px;
+    color: white;
+    font-size: 20px;
+    width: 484px;
+}
+.rule{
+    color: #D8AC85;
+}
+.property{
+    color: #8A47BE;
+}
+.meaning{
+    color: #EB653F;
+}
