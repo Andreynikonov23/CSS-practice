@@ -1,0 +1,21 @@
+div{
+    position: absolute;
+    width: 300px;
+    padding: 1%;
+    border: black 1px solid;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+.redText{
+    font-size: 20px;
+    color: brown;
+}
+.count{
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    left: 160px;
+}
+.last{
+    left: 155px;
+}
