@@ -1,0 +1,20 @@
+html{
+    background-color: #76977F;
+}
+#outside{
+    margin-top: 125px;
+    margin-left: 450px;
+    border-radius: 100%;
+    background-color: orange;
+    width: 400px;
+    height: 400px;
+}
+#inside{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: black;
+    left: 100px;
+    top: 100px;
+}
