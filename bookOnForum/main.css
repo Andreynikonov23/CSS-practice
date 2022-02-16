@@ -1,0 +1,47 @@
+table{
+    display: block;
+    width: 1000px;
+    height: 800px;
+}
+#head{
+    background-color: #828FBE;
+    text-align: center;
+    padding: 5px;
+    width: 800px;
+}
+tr{
+    display: block;
+    height: 60px;
+    margin-top: 10px;
+    border-bottom: black 1px solid;
+}
+td{
+    display: inline-block;
+}
+.td1{
+    width: 300px;
+    margin-right: 100px;
+}
+.td2{
+    width: 150px;
+    margin-right: 50px;
+}
+img{
+    height: 12px;
+    width: 12px;
+}
+.line{
+    height: 4px;
+    width: 12px;
+    background-color: green;
+    position: relative;
+    top: 5px;
+}
+.arrow{
+    border-left: 9px green solid;
+    border-top: 6px white solid;
+    border-bottom: 6px white solid;
+    position: relative;
+    left: 12px;
+    bottom: 3px;
+}
