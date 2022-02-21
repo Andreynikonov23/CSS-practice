@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 150px;
+}
+.button{
+    display: inline-block;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.first{
+    background-color: #CBCFD3;
+}
+.firstText{
+    padding-left: 20px;
+    border-left: black 2px dotted;
+    color: orange;
+}
+.secondText{
+    padding-left: 20px;
+    border-left: white 2px dotted;
+    color: orange;
+}
+.second{
+    background-color: #303132;
+}
+.triangle{
+    display: inline-block;
+    position: relative;
+    right: 7px;
+    top: 14px;
+    border-left: 15px solid #303132;
+    border-top: 19px solid white;
+    border-bottom: 19px solid white;
+}
