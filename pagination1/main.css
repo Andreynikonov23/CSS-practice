@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+#pagination{
+    margin-left: 300px;
+}
+ol{
+    display: block;
+}
+ol li{
+    display: inline-block;
+}
+input{
+    padding: 5px;
+    padding-inline-end: 10px;
+    padding-inline-start: 10px;
+    background-color: #242424;
+    color: white;
+    cursor: pointer;
+}
+input:focus{
+    background-color: orange;
+}
