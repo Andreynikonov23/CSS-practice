@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+section{
+    height: 3000px;
+}
+#head{
+    color: #4146A6;
+}
+table{
+    display: block;
+    background-color: #C7CAD3;
+    padding: 5px;
+    width: 950px;
+    height: 480px;
+}
+tr{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+tr:not(tr:last-child){
+    border-bottom: 1px goldenrod solid;
+}
+td{
+    display: inline-block;
+}
+.column1{
+    width: 100px;
+    color: gray;
+}
+.column2{
+    width: 800px;
+    margin-left: 20px;
+}
+.greenText{
+    display: inline-block;
+    background-color: green;
+    padding: 3px;
+    color: white;
+}
+#link{
+    margin-left: 800px;
+}
+#triangle{
+    width: 0;
+    display: inline-block;
+    border-bottom: 10px solid #0C3BD3;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+#link a{
+    text-decoration: none;
+}
