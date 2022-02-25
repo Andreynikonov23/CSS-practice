@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+ol{
+    display: block;
+    background-image: url(img/papyrus-dark.png);
+    color: white;
+    list-style: none;
+    border-bottom: 4px orangered solid;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 500px;
+    margin-left: 450px;
+}
+ol li{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+}
+ol li:not(ol li:last-child){
+    margin-right: 10px;
+}
+input{
+    color: white;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+}
+input:focus{
+    color: orangered;
+}
