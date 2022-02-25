@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+ul {
+    margin-left: 400px;
+    list-style: none;
+    width: 644px;
+    height: 40px;
+    background: linear-gradient(#029150,#026550);
+    line-height: 40px;
+    padding: 0;
+}
+ul li{
+    display: inline-block;
+    margin-right: 0px;
+}
+input{
+    height: 39px;
+    margin: 0;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+input:focus{
+    background-color: #31FF1E;
+    color: #026550;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 1);
+}
+input:hover:not(input:focus){
+    height: 37px;
+    border-bottom: #31FF1E 3px solid;
+}
