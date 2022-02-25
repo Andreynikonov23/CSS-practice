@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding-left: 350px;
+}
+ol{
+    display: block;
+    background-color: black;
+    color: white;
+    list-style: none;
+    height: 40px;
+    width: 520px;
+}
+ol li{
+    display: inline-block;
+}
+input{
+    margin: 0px;
+    width: 90px;
+    height: 40px;
+    background-color: transparent;
+    border: 0px;
+    margin-left: -5px;
+}
+div{
+    width: 520px;
+    height: 4px;
+    background-color: orangered;
+    position: relative;
+    bottom: 15px;
+}
+#one{
+    background-color: #F8FF32;
+}
+#one:focus{
+    background-color: orangered;
+    height: 45px;
+}
+#two{
+    background-color: #FF4157;
+    
+}
+#two:focus{
+    background-color: orangered;
+    height: 45px;
+}
+#three{
+    background-color: #DD00FF;
+}
+#three:focus{
+    background-color: orangered;
+    height: 45px;
+}
+#four{
+    background-color: #7164FF;
+}
+#four:focus{
+    background-color: orangered;
+    height: 45px;
+}
+#five{
+    background-color: #0AFFB1;
+}
+#five:focus{
+    background-color: orangered;
+    height: 45px;
+}
