@@ -1,0 +1,39 @@
+section{
+    padding: 0px;
+    height: 480px;
+    width: 900px;
+    column-count: 3;
+    column-width: 20px;
+    column-rule: 1px solid black;
+    column-gap: 100px;
+    column-fill: balance;
+}
+img{
+    display: inline-block;
+    position: relative;
+
+}
+div{
+    height: 100px;
+}
+div p{
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    bottom: 30px;
+}
+#one{
+    left: 50px;
+    bottom: 30px;
+}
+#two{
+    left: 45px;
+    bottom: 50px;
+}
+#three{
+    left: 30px;
+    bottom: 30px;
+}
+#oneH{
+    margin-top: 0px;
+}
