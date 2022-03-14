@@ -1,0 +1,137 @@
+body{
+    background-color: #FF5353;
+    font-family: "PT Sans", sans-serif;
+    color: white;
+}
+.mell{
+    display: inline-block;
+    width: 310px;
+    height: 700px;
+    background-image: url("https://refactoring.guru/images/content-public/windmill-ugly.svg");
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 400px;
+}
+.next{
+    
+    background-image: url("https://refactoring.guru/images/content-public/windmill-pretty.svg");
+    background-repeat: no-repeat;
+    margin-left: 1250px;
+}
+ol{
+    width: 280px;
+    height: 25px;
+    display: block;
+    list-style: none;
+    border-radius: 8px;
+    box-shadow: inset 20px 20px 10px 10px rgba(0,0,0, 0.3);
+    padding: 0;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+ol li{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+}
+ol li:last-child{
+    width: 110px;
+    
+}
+ol li:hover{
+    box-shadow: inset 20px 20px 10px 10px rgba(0,0,0, 0.6);
+    border-radius: 8px;
+}
+h1{
+    font-size: 50px;
+    margin-left: 760px;
+    height: 70px;
+    width: 360px;
+    border-bottom: #A33432 dotted 5px;
+}
+.line{
+    display: inline-block;
+    width: 200px;
+    border-top: #A33432 dotted 5px;
+}
+.end{
+    display: inline-block;
+    height: 5px;
+    width: 9px;
+    background-color: #A33432;
+    border-radius: 100%;
+}
+.lines{
+    margin-left: 820px;
+}
+#text{
+    font-size: 40px;
+    width: 400px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 740px;
+    margin-bottom: 30px;
+}
+.button{
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid white;
+    padding: 2px;
+    margin-left: 830px;
+    margin-top: 20px;
+    box-shadow: 4px 4px #A33432;
+    cursor: pointer;
+}
+.piece{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
+.one{
+    bottom: 10px;
+}
+.two{
+    bottom: 5px;
+    right: 24px;
+}
+.three{
+    right: 48px;
+}
+.text-button{
+    position: relative;
+    right: 30px;
+}
+.arrow{
+    position: relative;
+    display: inline-block;
+    width: 4px;
+    height: 15px;
+    background-color: white;
+    right: 40px;
+}
+.left{
+    height: 10px;
+    transform: rotate(-45deg);
+    right: 54px;
+}
+.right{
+    height: 10px;
+    transform: rotate(45deg);
+    right: 52px;
+}
+.arrows{
+    display: inline-block;
+    position: relative;
+    left: 30px;
+}
+.smallButt{
+    width: 150px;
+    margin-left: 850px;
+}
