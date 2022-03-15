@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+ul{
+    display: block;
+    list-style: none;
+    background-color: #F6F6F6;
+    height: 30px;
+    border-radius: 8px;
+    line-height: 30px;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    display: inline-block;
+    margin-right: 100px;
+}
+ul a:hover{
+    color: #52D5F6;
+}
+#content{
+    height: 400px;
+    border: 4px #F6F6F6 solid;
+    border-radius: 8px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    outline: 6px #F6F6F6 solid;
+}
+.tile{
+    display: inline-block;
+    margin-right: 50px;
+    width: 160px;
+    height: 300px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.text{
+    position: absolute;
+    width: 150px;
+    text-align: center;
+}
+h3{
+    margin-left: 150px;
+}
+.one{
+    margin-left: 150px;
+}
+.tile:hover{
+    text-decoration: underline;
+}
