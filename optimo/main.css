@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding-left: 550px;
+    padding-top: 100px;
+}
+.container{
+    display: inline-block;
+    margin: 0;
+    width: 200px;
+    height: 630px;
+    background-color: #FFE7DE;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #7D2B05;
+    margin-left: -4px;
+    cursor: pointer;
+}
+.columnO{
+    width: 190px;
+    border-bottom: 1px dotted black;
+    margin-left: 10px;
+}
+.columnW{
+    width: 190px;
+    border-bottom: 1px dotted black;
+    padding-left: 10px;
+}
+.column{
+    width: 200px;
+    border-bottom: 1px dotted black;
+    padding-left: 10px;
+}
+.tariph{
+    padding: 10px;
+    font-size: 32px;
+    height: 90px;
+}
+.data{
+    margin-top: 25px;
+    height: 100px;
+    padding-left: 10px;
+}
+.data b{
+    margin-right: 10px;
+}
+.domen{
+    height: 120px;
+    padding-top: 15px;
+}
+.copies{
+    height: 130px;
+    padding-top: 15px;
+}
+.cost{
+    padding-left: 20px;
+    border: 0;
+}
+h1{
+    color: #FF3E32;
+}
+sub{
+    color: #FF3E32;
+    position: relative;
+    bottom: 50px;
+    left: 87px;
+}
+input{
+    background-color: #351202;
+    padding: 10px;
+    border: 0;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.container:hover{
+    background-color: #FFAA8B;
+}
+.container:hover input{
+    background-color: #FF3E32;
+}
