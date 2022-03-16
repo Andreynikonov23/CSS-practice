@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+ol{
+    width: 600px;
+    display: block;
+    list-style: none;
+    padding: 15px;
+    padding-left: 35px;
+    padding-bottom: 25px;
+    background: linear-gradient(45deg, #A600FF, #FF1E4F);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+ol li{
+    cursor: pointer;
+    display: inline;
+    border-bottom: dotted 1px white;
+    
+}
+ol li:not(li:last-child){
+    margin-right: 150px;
+}
+div{
+    position: relative;
+    background-color: #FF1E4F;
+    height: 10px;
+    left: 600px;
+}
+.one{
+    width: 100px;
+    left: 600px;
+    bottom: 83px;
+}
+.two{
+    width: 30px;
+    bottom: 83px;
+}
+.three{
+    width: 200px;
+    bottom: 83px;
+}
+.four{
+    width: 60px;
+    bottom: 73px;
+}
+.five{
+    height: 13px;
+    width: 140px;
+    bottom: 73px;
+}
