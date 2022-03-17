@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #9FDDE1;
+    padding: 150px;
+    padding-left: 550px;
+}
+.stack{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    
+    transform: perspective(500px) rotateY(10deg) rotateX(50deg) rotateZ(-50deg);
+}
+.one{
+    z-index: 2;
+    background-color: white;
+}
+.two{
+    z-index: 1;
+    bottom: 140px;
+    background-color: #4F91E1;
+}
+.three{
+    bottom: 280px;
+    background-color: #4F00E1;
+}
