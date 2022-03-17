@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Smooch+Sans:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+.block{
+    width: 400px;
+    height: 500px;
+    background-color: #D0D0D0;
+    padding: 10px;
+}
+.heading{
+    height: 50px;
+    background-color: gray;
+    color: white;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 40px;
+    padding-left: 10px;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+.column{
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 30px;
+    
+}
+.c1{
+    margin-right: 70px;
+    
+}
+
+.name{
+    font-weight: 700;
+    color: black;
+}
+.cell{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    line-height: 30px;
+    color: #340065;
+    display: flex;
+}
+.cell:not(.cell:last-child){
+    border-bottom: 1px solid gray;
+}
+.check{
+    color: transparent;
+}
+.text{
+    margin-left: -15px;
+}
+.check{
+    color: transparent;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: 0;
+}
+.first:focus .text{
+    margin-left: 0;
+    font-weight: 700;
+    color: #340065;
+}
+.first:focus .check{
+    font-weight: 700;
+    color: #340065;
+}
+.c2 .text{
+    margin-left: 0px;
+}
+.c2 .c:hover{
+    background-color: #A267D8;
+    border-radius: 5px;
+}
+.c2 .c:hover .text{
+    color: white;
+    margin-left: 15px;
+}
+.full:hover{
+    font-size: 14px;
+}
+.count{
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-left: 110px;
+}
+.sort{
+    margin-left: 70px;
+    position: absolute;
+}
+.help{
+    color: white;
+    background-color: #340065;
+    width: 20px;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 6px;
+    margin-left: 35px;
+    cursor: pointer;
+}
