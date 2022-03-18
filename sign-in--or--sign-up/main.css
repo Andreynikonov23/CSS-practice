@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Smooch+Sans:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.block{
+    width: 900px;
+    height: 500px;
+    border: 1px black solid;
+    border: 1px solid blue;
+    box-shadow: 0px 0px 6px 1px blue;
+    padding: 30px;
+    margin-left: 500px;
+    margin-top: 100px;
+    z-index: 2;
+}
+.container{
+    margin-top: 30px;
+    border-top: 1px solid gray;
+}
+.sign{
+    height: 40px;
+    padding: 10px;
+    position: relative;
+    color: #3E8BD8;
+    font-weight: 800;
+    bottom: 40px;
+}
+.in{
+    margin-left: 20px;
+    width: 90px;
+}
+.sign:focus{
+    color: #3E3ED8;
+    border-bottom: 0;
+    background-color: white;
+    z-index: 0;
+    transform-style: preserve-3d;
+    transform: perspective(200px);
+}
+.inContainer{
+    margin-top: -20px;
+}
+.d1{
+    display: inline-block;
+}
+.d2{
+    display: inline-block;
+    width: 200px;
+    margin-left: 150px;
+    position: relative;
+    bottom: 150px;
+    color: #3156E7;
+}
+.email{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.password{
+    font-size: 15px;
+}
+.email-field{
+    height: 30px;
+    width: 355px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.pass-field{
+    height: 30px;
+    width: 355px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+ol{
+    display: block;
+    list-style: none;
+    padding-left: 0;
+}
+ol li{
+    display: inline-block;
+    width: 30px;
+    height: 13px;
+    background-color: #00A906;
+    margin-left: -2px;
+}
+.gray{
+    background-color: #C7C7C7;
+}
+.info{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background:linear-gradient(#4B51FF, #0A12FF);
+    color: white;
+    text-align: center;
+    line-height: 15px;
+    font-style: italic;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.checkbox-block{
+    width: 300px;
+    color: #4A4A4A;
+    margin-bottom: 30px;
+}
+.create{
+    width: 200px;
+    height: 40px;
+    background-color: #318CE7;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    outline-offset: 2px;
+    border: 0;
+    outline: 1px solid gray;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.heading{
+    font-size: 18px;
+    font-weight: 800;
+}
+.check{
+    color: green;
+    font-weight: bolder;
+}
+.tail1{
+    display: inline-block;
+    position: relative;
+    border-bottom: 30px solid blue;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+.tail2{
+    display: inline-block;
+    position: relative;
+    border-bottom: 29px solid white;
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+    right: 43px;
+}
+.tail{
+    position: relative;
+    bottom: 529px;
+    left: 1300px;
+}
+.footer:not(a){
+    color: #0048BA;
+}
